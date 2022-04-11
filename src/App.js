@@ -1,5 +1,5 @@
-import './App.css';
-import Ar from "./Ar";
+import './App.scss';
+import Folders from "./Folders";
 
 const App = () => {
 
@@ -9,8 +9,8 @@ const App = () => {
                 header
             </header>
 
-            <div>
-                <Ar />
+            <div className="container">
+                <Folders />
             </div>
         </div>
     );
